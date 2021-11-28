@@ -153,10 +153,14 @@ footer {
 /* Responsive */
 @media screen and (min-width: 750px) {
   header, footer {
-    text-align: center;
+        text-align: center;
+  }
+    h3 {
+      font-size: 75px;
+    }
   
   }
-  .hobby-item img {
+  .painting-item img {
     float: left;
     margin-right: 20px;
   }
