@@ -119,22 +119,25 @@ margin: 0 auto;
   align-content: center;
   justify-content: start;
   align-items: baseline;
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 .painting a {
   color: #5e60c2;
 }
 
 .crayoncarving-details {
-  background-color: #01BAEF;
+  background-color: #226d81;
   color: #16171f;
   text-align: center;
-  justify-content: space-evenly;
 }
 .modelmaking-details {
   background-color:#7FC29B;
   color: #16171f;
   text-align: center;
-  margin: 0 auto;
+ 
 }
 .woodcarving-details {
   background-color: #FCA311;
@@ -178,15 +181,15 @@ footer {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
-  /* .contact-list{ */
-  /* display: flex; */
-  /* justify-content: center; */
+  .contact-list{
+  display: flex;
+  justify-content: center;
   
-  /* } */
+  }
   
   
-  img {
-    width: 300px;
+  #img {
+    width: 85%;
       /* min-height: 300px; */
      }
 
