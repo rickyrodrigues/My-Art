@@ -16,7 +16,8 @@ body {
   background-color: black;
 }
 img {
-  width: 85%;
+  width: 300px;
+  padding: 10px 10px 10px 10px ;
   /* height: 300px; */
 }
 
@@ -107,9 +108,10 @@ header {
 background-color: #778899;
 color: #16171f;
 text-align: center;
-padding-bottom: 10px;
+padding: 60px 20px 10px 20px;
 margin: 0 auto;
 
+align-items: baseline;
 }
 
 .painting-item {
@@ -132,17 +134,19 @@ margin: 0 auto;
   background-color: #226d81;
   color: #16171f;
   text-align: center;
+  padding: 60px 20px 10px 20px;
 }
 .modelmaking-details {
   background-color:#7FC29B;
   color: #16171f;
   text-align: center;
- 
+  padding: 60px 20px 10px 20px;
 }
 .woodcarving-details {
   background-color: #FCA311;
   color: #16171f;
   text-align: center;
+  padding: 60px 20px 10px 20px;
 }
 
 /* CONTACT INFO
@@ -150,11 +154,15 @@ margin: 0 auto;
 footer {
   background: #2E4057;
   color: #f7fff7;
- 
+  padding: 0px;
 }
 .contact-list {
   list-style-type: none;
   padding: 0;
+
+
+
+
   
 }
 .contact-list a {
@@ -165,6 +173,9 @@ footer {
 @media screen and (min-width: 750px) {
   header, footer {
         text-align: center;
+  }
+  img {
+    width: 300px;
   }
     h3 {
       font-size: 75px;
