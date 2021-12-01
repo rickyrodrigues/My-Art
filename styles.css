@@ -16,8 +16,8 @@ body {
   background-color: black;
 }
 img {
-  width: 300px;
-  padding: 10px 10px 10px 10px ;
+  width: 90%;
+  padding: 10px 10px 25px 10px ;
   /* height: 300px; */
 }
 
@@ -56,8 +56,15 @@ h2 {
 h3 {
   font-family: "Caveat", cursive;
 margin-bottom: 0;
+margin-top: auto;
 font-size: 50px;
 } 
+h4,
+h5 {
+   font-family: "Caveat";
+  margin-bottom: 0;
+  font-size: 30px;
+}
 .item-details h3 + p {
   font-style: italic;
 }
@@ -177,8 +184,12 @@ footer {
   img {
     width: 300px;
   }
+  h2 {
+    line-height: 0.9;
+  }
     h3 {
       font-size: 75px;
+
     }
   
   }
@@ -206,13 +217,14 @@ footer {
 
 @media screen and (max-width: 749px) {
   h1 {
-    font-size: 75px;
+    font-size: 57px;
     line-height: 0.9;
     margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
 }
 h1 {
+  
   line-height: 0.9;
 }
 h2 {
@@ -221,7 +233,5 @@ h2 {
 .contact-list a {
   padding: 5px;
 }
-h3 {
-  font-size: 75px;
-}
+
 }
