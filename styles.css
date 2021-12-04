@@ -119,6 +119,28 @@ padding: 60px 20px 10px 20px;
 margin: 0 auto;
 
 align-items: baseline;
+
+ animation-name: bg-Color-Change ;
+ animation-duration: 10s;
+ animation-delay: -2s;
+ animation-iteration-count: infinite;
+}
+@keyframes bg-Color-Change {
+  0% {
+      background-color: rgb(148, 163, 175);
+  }
+  25% {
+      background-color: #778899
+  }
+  50% {
+      background-color: rgb(192, 163, 128)
+  }
+  75% {
+      background-color: rgb(126, 165, 165)
+  }
+  100% {
+      background-color: rgb(171, 169, 173);
+  } */
 }
 
 .painting-item {
